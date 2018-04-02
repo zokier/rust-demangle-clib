@@ -1,0 +1,12 @@
+[package]
+name = "rustc-demangle-clib"
+version = "0.1.0"
+authors = ["Torste Aikio <zokier@gmail.com>"]
+
+[lib]
+name = "rustc_demangle_clib"
+crate-type = ["cdylib", "staticlib"]
+
+[dependencies]
+rustc-demangle = "*"
+
